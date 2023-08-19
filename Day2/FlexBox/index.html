@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+ }
+
+ body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #333;
+    background: #a3cef5;
+
+}
+
+ h1,h2{
+    margin-bottom:15px;
+ }
+
+ .container{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 30px;
+ }
+
+.navbar{
+    background-color: blue;
+    color:white;
+ }
+
+ .navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+    height: 60px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display:flex;
+}
+
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar a:hover{
+    color:lightblue;
+}
+
+.header {
+    background-color: #0151cc;
+    height: 400px;
+    color: #fff;
+    padding:20px;
+}
+
+.header h1{
+color:#fff;
+line-height: 1.2;
+}
+
+.header img{
+max-width: 300px;
+}
+
+.header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxes .container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 10px;
+    color: #fff;
+    background: #0a51cc;
+    margin: 20px 10px;
+    border-radius:10px ;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Flexbox</div>
+            <ul class="nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1>Flexbox Crash Course</h1>
+                <p>
+                    CSS Flexible Box Layout,
+                     commonly known as Flexbox, 
+                     is a CSS 3 web layout model.
+                      It is in the W3C's candidate 
+                      recommendation stage. 
+                    
+                </p>
+            </div>
+            <img src="grid.jpg"/>
+        </div>
+    </header>
+    <section class="boxes">
+        <div class="container">
+            <div class="box">
+             <h2><i class="fas fa-arrow-alt-v"></i>Alignment & Space</h2>
+             <p>
+                The following table lists
+                all the CSS Flexbox Container
+                properties: Modifies the behavior
+                of the flex-wrap property. 
+                It is similar to align-items,
+                but instead of aligning flex 
+                items, it aligns flex lines.
+             </p>
+            </div>
+            <div class="box">
+                <h2><i class="fas fa-arrow-alt-v"></i>Tricky Positioning</h2>
+                <p>
+                   The following table lists
+                    all the CSS Flexbox Container
+                    properties: Modifies the behavior
+                    of the flex-wrap property. 
+                    It is similar to align-items,
+                    but instead of aligning flex 
+                    items, it aligns flex lines.
+                </p>
+               </div>
+        </div>
+    </section>
+</body>
+</html>

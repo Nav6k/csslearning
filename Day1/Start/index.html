@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+    
+    margin:9px;
+    padding:10px;
+    
+     }
+
+     .item {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: white;
+    /* float: left; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+    background: pink;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-container::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+
+.item:nth-of-type(3){
+order:1;
+}
+
+.item:nth-of-type(2){
+order:3;
+}
+
+.item:nth-of-type(1){
+order:2;
+}
+    </style>
+</head>
+<body>
+ <div class="flex-container">
+    <div class="item">Item1</div>
+    <div class="item">Item2</div>
+    <div class="item">Item3</div>
+    
+ </div>
+ <h1>jjkbjkbj</h1>
+</body>
+</html>

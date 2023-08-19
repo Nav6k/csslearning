@@ -1,0 +1,23 @@
+body{
+    padding: 10%;
+    font-size:2rem;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(240, 100%, 50%);
+}
+
+a:visited{
+    text-decoration: none;
+    color:brown;
+}
+
+a:hover, a:focus{
+    color:hsl(240, 100%, 50%, 0.8);
+    
+}
+
+a:active{
+    color:red;
+}

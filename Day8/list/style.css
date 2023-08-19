@@ -1,0 +1,43 @@
+body{
+    font-size:2rem;
+    padding:20%;
+    text-align: left;
+}
+
+ol{
+list-style: lower-alpha;
+line-height: 1.4;
+
+}
+
+
+ul{
+    list-style-type: none;
+    line-height: 1.4;
+    /* list-style-image: url('../Day8 List/check.png ');
+    */
+}
+
+/* li {
+    list-style: none;
+  } */
+
+ ul li::before {
+    content: '';
+    display: inline-block;
+    height:50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(' ../Day8 List/check.png ');
+    background-repeat: no-repeat;
+    margin-right:10px;
+    background-position: center center;
+    vertical-align: middle;
+    
+  }
+
+  ul li:nth-child(2){
+    color:red;
+  }
+
+ 
