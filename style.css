@@ -10,33 +10,36 @@
 body{
     font-family: "Roboto",sans-serif;
     height:100vh;
-   background: hsl(212, 87%, 12%, 0.8);
+    background-image: url('https://cdn.pixabay.com/photo/2017/09/06/14/49/triangle-2721782_1280.jpg');
+    background-size:200vh ;
+    
 }
 
 .container{
-    font-size: 1rem;
-    background-color: #B09A9A;
+    font-size: 1.5rem;
+    /* background-color: #B09A9A; */
     color:#041C38;
     text-align: center;
-    border:1px solid hsl(0, 1%, 50%);
-    border-radius: 4em;
+    /* border:5px double hsl(0, 0%, 4%); */
+    /* border-radius: 4em; */
     padding:1rem;
     margin-left: 2em;
     margin-right: 1em;
     margin-top: 1em;
-   
+    
 }
 
 .boxes{
     display:flex;
     flex-wrap:wrap;
     flex-flow: row wrap;
-    justify-content:space-between;
+    justify-content:space-around;
      margin-right: 2em;
+     padding-bottom: 1em;
 }
 
 .box1{
-   border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
    width:30%;
    height:30%;
    text-align: center;
@@ -52,18 +55,20 @@ li{
    text-align: left;
     margin-left:1em;
     padding:0.2em;
+
    
 }
  a{
     text-decoration: none;
+    color:#041C38;
  }
 
  a:visited{
-    background: #041C38;
+    color:#041C38;
  }
 
 .box2{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -76,7 +81,7 @@ li{
 }
 
 .box3{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -89,7 +94,7 @@ li{
 }
 
 .box4{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -102,7 +107,7 @@ li{
 }
 
 .box5{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -115,7 +120,7 @@ li{
 }
 
 .box6{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -128,7 +133,7 @@ li{
 }
 
 .box7{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -141,7 +146,7 @@ li{
 }
 
 .box8{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -154,7 +159,7 @@ li{
 }
 
 .box9{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -167,7 +172,7 @@ li{
 }
 
 .box10{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:40%;
     text-align: center;
@@ -180,7 +185,7 @@ li{
 }
 
 .box11{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
@@ -193,7 +198,20 @@ li{
 }
 
 .box12{
-    border:1px solid hsl(0, 1%, 50%);
+    border:5px double hsl(0, 0%, 4%);
+    width:30%;
+    height:30%;
+    text-align: center;
+    background-color: hsl(0, 12%, 65%);
+    color:#041C38;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding:1em;
+    border-radius: 1em;
+}
+
+.box13{
+    border:5px double hsl(0, 0%, 4%);
     width:30%;
     height:30%;
     text-align: center;
