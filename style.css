@@ -12,7 +12,7 @@ body{
     height:100vh;
     background-image: url('https://cdn.pixabay.com/photo/2017/09/06/14/49/triangle-2721782_1280.jpg');
     background-repeat: no-repeat;
-    background-size: 250vh;
+    background-size: 100%;
     
 }
 
@@ -223,6 +223,7 @@ li{
     padding:1em;
     border-radius: 1em;
 }
+
 .box14{
     border:5px double hsl(0, 0%, 4%);
     width:30%;
