@@ -249,3 +249,16 @@ li{
     padding:1em;
     border-radius: 1em;
 }
+
+.box16{
+    border:5px double hsl(0, 0%, 4%);
+    width:30%;
+    height:30%;
+    text-align: center;
+    background-color: hsl(0, 12%, 65%);
+    color:#041C38;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding:1em;
+    border-radius: 1em;
+}
