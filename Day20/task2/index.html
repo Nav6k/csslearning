@@ -7,47 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <header class="header">
         <h1>Neal.Fun</h1>
-    </header>
-    <div class="search-box">
-        <div class="main_icon">
-            <img src="icon.svg" height="300" width="300">
+    </header> 
+    <div class="password-game">
+        <img src="icon.svg" height="200" width="300">
+    </div>
+    <div class="search-box" >
+        <form action="#">
+            <input type="text"  name="search">
+        </form>
+        <div class="character-length">1</div>
+       </div>
+    <div class="boxes">
+        <div class="box1 error" >
+            <div class="rule1">
+                <h2>Rule1</h2></div>
+                <p>Your password must at least 5 character</p>
         </div>
-
-        <div class="password-lable">Please choose a password </div>
-        <div class="search">
-            <form action="#">
-                <input type="text"  name="search">
-            </form>
-            <div class="length">1</div>
+        <div class="box1 sucess">
+            <div class="rule1">
+            <h2>Rule1</h2>
+            </div>
+                <p>Your password must include a number</p>
         </div>
     </div>
-    <footer>
-        <div class="boxes">
-            <div class="box1">
-                <div class="sub-box1">
-                    <img src="red_icon.png" height="24" weight="24">
-                    <h2>Rule1</h2>
-                </div>
-                <div class="p-box1">
-                    <p>Your password must include a number</p>
-                </div>
-                
-            </div>
-            <div class="box2">
-                <div class="sub-box2">
-                    <img src="green_icon.png" height="24" weight="24">
-                    <h2>Rule1</h2>
-                </div>
-                <div class="p-box2">
-                    <p>Your password must at least 5 character</p>
-                </div>
-                
-            </div>
-           </div>
-    </footer>
+      
+  
   
 </body>
 </html>
