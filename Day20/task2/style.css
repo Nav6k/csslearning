@@ -9,114 +9,77 @@ body{
     height:100vh;
     font-family:Roboto,sans-serif;
     background-color: #fffae9;
-}
-
-.header {
-    font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 15px;
-}
-
-.search-box {
-    max-width: 485px;
-    margin: 167px auto 60px;
-}
-.password-lable{
-    font-size: 16px;
-    margin-bottom: 8px;
     
-}
-
-.search input {
-    border: 1px solid grey;
-    padding: 15px;
-    border-radius: 10px;
-    font-family: monospace;
-    font-size: 28px;
-    width:500px;
-}
-
-.length {
-    position: absolute;
-    top: 45%;
-    right: 28%;
 }
 
 h1:hover{
-    font-size: 41px;
+    font-size: 2.03em;
+}
+.header {
+    display:flex;
+    justify-content: flex-start;
+    font-size: 20px;
+   font-family: 'Roboto Condensed', sans-serif;
+    margin:0.5em;
 }
 
-.main_icon {
-    top: -50px;
-    left:500px;
-    position: absolute;
+.password-game{
+display:flex;
+justify-content: center;
+margin-left: -2em;
+}
+
+.search-box{
+    display:flex;
+    gap:1em;
+    justify-content:center; 
+    align-items:center;
+}
+
+.search-box input{
+    border: 1px solid grey;
+    padding: 20px ;
+    border-radius: 10px;
+    width: 450px;
+    font-size: 25px;
+    /* margin: 22px auto; */
+    text-align: left;
 }
 
 .boxes{
+    
     display:block;
     font-size: 16px; 
     text-align: center;
-    
+    margin-left: -2em;
 }
 
 .box1 {
-    display: block;
-    padding: 8px 16px 20px;
+    
+    padding: 20px ;
     border: 1px solid red;
     background-color: hsla(0, 100%, 50%, 0.137);
-    width: 500px;
+    width: 450px;
     border-radius: 10px;
     text-align: left;
     margin: 22px auto;
     box-shadow: 2px 2px 5px 2px rgba(255,0,0,.12);
+    
 }
 
-.sub-box1 {
-    display: block;
-    /* border: 3px solid hsl(0deg 100% 50% / 20%); */
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
+.error{
+    border: 1px solid red;
+    background-color: hsla(0, 100%, 50%, 0.137);
 }
 
-.sub-box1 img {
-    position: absolute;
-    left: 412px;
-    top:413px;
-}
-
-.box1 p{
-    padding:0.2em;
-}
-
-h2{
-    font-size: 1em;
-}
-
-.p-box1{
-    color:black;
-}
-
-.box2 {
-    display: block;
-    padding: 8px 16px 20px;
+.sucess{
     border: 1px solid green;
     background-color: hsla(120, 100%, 25%, 0.233);
-    width: 500px;
-    border-radius: 10px;
-    text-align: left;
-    margin: 22px auto;
-    box-shadow: 2px 2px 5px 2px hsla(130, 100%, 25%, 0.11);
 }
-
-.sub-box2{
-    display: block;
-    /* border: 3px solid hsl(0deg 100% 50% / 20%); */
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
+h2{
+    font-size: 1.2em;
 }
-
-.sub-box2 img {
-    position: absolute;
-    left: 412px;
-    top:527px;
+.rule1{
+    display:flex;
+    align-items: flex-start;
 }
